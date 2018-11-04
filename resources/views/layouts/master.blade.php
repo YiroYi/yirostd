@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HOME 1 GYM & FITNESS HTML Template</title>
+    <title>Yiro's Fitness Studio @yield('title')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="iThemesLab">
     <meta name="description" content="">
@@ -74,15 +74,17 @@
         <section class="footer-area bg3 parallax overlay pt90">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-12 " style="position :relative;">
-                        <div class="footer-logo footer-content" style="position: absolute; left: 40px; top: -50px;">
-                            <img src="images/logo/yirosNB.png" style="display: block;max-height: 200px;" alt="BEFIT logo">
-                        </div>
-                        <div class="add-info" style="position: absolute; left: 80px; top: 90px;">
-                            <p><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Bosques de Asia # 46-B, Colonia Bósques de Arágon</p>
-                            <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>yiros-team@yirosfitness-studio.com</p>
-                            <p class="mb-0"><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>+52-5565074337</p>
-                        </div>
+                    <div class="col-md-3 col-sm-12">
+                      <div class="news-info ftr-algn">
+                          <div class="footer-logo footer-content" style="position: relative; left: 80px; top: -80px;">
+                              <img src="images/logo/yirosNB.png" style="display: block;max-height: 200px;" alt="BEFIT logo">
+                          </div>
+                          <div class="add-info" style="position: absolute; left: 80px; top: 90px;">
+                              <p><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Bosques de Asia # 46-B, Colonia Bósques de Arágon</p>
+                              <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>yiros-team@yirosfitness-studio.com</p>
+                              <p class="mb-0"><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>+52-5565074337</p>
+                          </div>
+                      </div>
                     </div>
                     <!-- /.col -->
                     <div class="col-md-3 col-sm-12">
@@ -131,8 +133,8 @@
                                   <li><a href="{{route('class')}}" style="color:white;">Clases</a></li>
                                   <li><a href="{{route('membership')}}" style="color:white;">Membresías</a></li>
                                   <li><a href="{{route('schedule')}}" style="color:white;">Horarios</a></li>
-                                  <li><a href="{{route('diet')}}" style="color:white;">Dietas</a></li>
-                                  <li><a href="{{route('store')}}" style="color:white;">Tiendas</a></li>
+                                  <!--<li><a href="{{route('diet')}}" style="color:white;">Dietas</a></li>
+                                  <li><a href="{{route('store')}}" style="color:white;">Tiendas</a></li>-->
                                 </ul>
                             </div>
                         </div>
@@ -147,7 +149,7 @@
                         </div>
                     </div>
                     <!-- /.col -->
-                </div>
+                <!--</div>-->
                 <!-- /.row -->
             </div>
             <!--/.container-->

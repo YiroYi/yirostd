@@ -1,5 +1,7 @@
 @extends('layouts.master')
-
+@section('title')
+ | Acerca de
+@endsection
 @section('content')
 <div class="main-container">
   <!-- page title & breadcrumbs start -->

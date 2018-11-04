@@ -196,7 +196,7 @@
                         <h5 class="title mb30">Porque lo mas importante es que alcances tus metas</h5>
                         <p class="mb30">Uno de los pilares para alcanzar cualquiera que sea tu meta es simplemente es tener un cuerpo sano,ya que tendrás la fuerza ,energía y disciplina para poder lograrlo y podrás llegar hasta dónde tu quieras. </p>
                         <div class="bttn">
-                            <button type="submit" class="btn active btn-primary">Conocenos</button>
+                            <a href="{{route('about')}}" class="btn active btn-primary">Conocenos</a>
                         </div>
                     </div>
                 </div>
