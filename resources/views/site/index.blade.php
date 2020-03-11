@@ -90,7 +90,7 @@
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption slide-text-one tp-resizeme" id="slide-3-layer-1" data-x="['left','center','center','center']" data-hoffset="['65','100','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-100','-145','-60','-100']" data-fontsize="['inherit','20','20','17']" data-lineheight="['60','30','30','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:-250px;y:0;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; font-family: 'Roboto Condensed', sans-serif">
-                            <h1>zumba <span>kids</span></h1>
+                            <h1>ballet <span>kids</span></h1>
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -274,10 +274,10 @@
             <div class="port-box primary-overlay">
                 <div class="port-img">
                     <a href="images/class-schedule/big1.jpg">
-                    <img src="images/class-schedule/zumbak.jpeg"  alt="schedule img"></a>
+                    <img src="images/class-schedule/zumbak.jpeg" style="width: 480px; height: 356px;" alt="schedule img"></a>
                 </div>
                 <div class="port-dtl">
-                    <h5>zumba kids</h5>
+                    <h5>ballet kids</h5>
                     <p>Inculcamos en nuestros peques una cultura por la salud y bienestar. </p>
                 </div>
             </div>
@@ -311,7 +311,7 @@
                         <div class="price-quantity">
                             <div class="qnty-box">
                                 <div class="box-element">
-                                    <h5>$250.00 mxn</h5>
+                                    <h5>$300.00 mxn</h5>
                                     <p>Zumba</p>
                                 </div>
                             </div>
@@ -321,7 +321,7 @@
                                     <li>10 visitas</li>
                                     <li>+Hidratación</li>
                                     <li>Vigencia 30 días</li>
-                                    <li>Visita individual $30</li>
+                                    <li>Visita individual $35</li>
                                 </ul>
                                 <!--<div class="price-btn bttn">
                                     <button type="submit" class="btn btn-primary">Buy now</button>
@@ -337,7 +337,7 @@
                         <div class="price-quantity">
                             <div class="qnty-box">
                                 <div class="box-element">
-                                    <h5>$300.00 mxn</h5>
+                                    <h5>$350.00 mxn</h5>
                                     <p>Pilates & Yoga</p>
                                 </div>
                             </div>
@@ -391,17 +391,17 @@
                         <div class="price-quantity">
                             <div class="qnty-box">
                                 <div class="box-element">
-                                    <h5>$400.00 mxn</h5>
-                                    <p>Zumba kids</p>
+                                    <h5>$600.00 mxn</h5>
+                                    <p>Ballet kids</p>
                                 </div>
                             </div>
                             <div class="price-dtl">
                                 <ul>
                                     <li class="first-child">3 días a la semana</li>
-                                    <li>10 visitas</li>
+                                    <li>1 mes</li>
                                     <li>+Hidratación</li>
                                     <li>Vigencia 30 días</li>
-                                    <li>Visita individual $45</li>
+                                    <li>Mensualidad</li>                                  
                                 </ul>
                                 <!--<div class="price-btn bttn">
                                     <button type="submit" class="btn btn-primary">Buy now</button>
@@ -597,150 +597,6 @@
         <!-- /.container -->
     </div>
     <!--schedule-area end-->
-
-    <!--pricing box start-->
-    <!--<div class="product-area pad90">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center">
-                        <div class="title-bar full-width mb20">
-                            <img src="images/logo/ttl-bar.png" alt="title-img">
-                        </div>
-                        <h3>special products</h3>
-                        <p>look your best feel even better</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="product-carousel">
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big1.jpg">
-                                            <img src="images/price/1.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class=" fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>Muscle Gain<span>£85.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big2.jpg">
-                                           <img src="images/price/2.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class="fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>supplements <span>£75.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big3.jpg">
-                                            <img src="images/price/3.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class="fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>supplements <span>£95.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big4.jpg">
-                                            <img src="images/price/4.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class="fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>Muscle Gain<span>£85.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big3.jpg">
-                                            <img src="images/price/3.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class="fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>supplements <span>£95.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="product-box">
-                                <div class="cart-box primary-overlay">
-                                    <div class="cart-img full-width">
-                                        <a href="images/price/big4.jpg">
-                                            <img src="images/price/4.jpg"  alt="price img"><i class=" ovrlay fa fa-search"></i></a>
-                                    </div>
-                                    <div class="cart-element">
-                                        <a href="#">quick look</a>
-                                        <i class="fa fa-heart"></i>
-                                    </div>
-                                </div>
-                                <div class="cart-dtl">
-                                    <h4>Muscle Gain<span>£85.00</span></h4>
-                                    <div class="add-cart">
-                                        <a href="#">add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!--pricing box end-->
 
     <!--call to action start-->
     <div class="call-to-action pad90">

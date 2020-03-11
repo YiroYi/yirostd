@@ -16,7 +16,7 @@
               <!-- /.colour-service-1-->
               <div class="col-md-12">
                   <ol class="breadcrumb">
-                      <li><a href="index.html">inicio</a></li>
+                      <li><a href="{{route('/')}}">inicio</a></li>
                       <li>।</li>
                       <li>conocenos</li>
                   </ol>

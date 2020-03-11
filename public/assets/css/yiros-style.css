@@ -1,0 +1,51 @@
+.salesTable th, td {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.radiousButton {
+  border-radius: 25px;
+}
+
+.logoAdmin {
+  width: 100px;
+}
+
+.logoSite {
+  width: 50px;
+  position: absolute;
+  bottom: 18px;
+  left: 50px;
+
+}
+
+.logoTextSite {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 110px;
+  bottom: 10px;
+}
+
+.logoFooter {
+  width: 130px;
+}
+
+.logoFooterPosition {
+  position: absolute;
+  left: 100px;
+  bottom: 180px;
+}
+/*style="position: relative; left: 80px; top: -80px;"
+/*style="display: block;max-height: 70px;"*/
+
+.adminButton {
+  background: #fe346e !important;
+  font-weight: bold;
+}
+
+
+.login-formAdmin {
+  border-top: 5px solid #fe346e !important;
+}

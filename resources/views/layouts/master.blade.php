@@ -5,17 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yiro's Fitness Studio @yield('title')</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <meta name="author" content="iThemesLab">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="{{asset('favicon/favicon.ico')}}">
-    <link rel="apple-touch-icon" href="{{asset('favicon/apple-icon-57x57.png')}}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('favicon/apple-icon-72x72.png')}}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('favicon/apple-icon-114x114.png')}}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('favicon/apple-icon-144x144.png')}}">
+    <link rel="shortcut icon" href="images/logo/yirosNB.png">
 
     <!--All Css Here-->
 
@@ -40,6 +36,7 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <!--Responsive Css-->
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link href="assets/css/yiros-style.css" rel="stylesheet" type="text/css" />
     <!--Modernizr Css-->
     <!--Modernizr Css-->
     <script src="{{asset('js/vendor/modernizr-2.8.3.min.js')}}"></script>
@@ -53,22 +50,17 @@
 </head>
 
 <body>
-  <div id="app">
+
 
 
     <!--preloader-->
-    <div class="preloader">
-        <div class="ball ball-1">
-        </div>
-        <div class="ball ball-2"></div>
-        <div class="ball ball-3"></div>
-    </div>
+
     <!--preloader-->
     <!-- /.header start -->
         @include('template.navbar')
     <!--header end-->
         @yield('content')
-  </div>
+
     <!--main-container-->
     <footer>
         <section class="footer-area bg3 parallax overlay pt90">
@@ -76,8 +68,8 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
                       <div class="news-info ftr-algn">
-                          <div class="footer-logo footer-content" style="position: relative; left: 80px; top: -80px;">
-                              <img src="images/logo/yirosNB.png" style="display: block;max-height: 200px;" alt="BEFIT logo">
+                          <div class="logoFooterPosition">
+                              <img class="logoFooter" src="images/logo/yirosNB.png" style="display: block;max-height: 200px;" alt="BEFIT logo">
                           </div>
                           <div class="add-info" style="position: absolute; left: 80px; top: 90px;">
                               <p><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Bosques de Asia # 46-B, Colonia Bósques de Arágon</p>
@@ -92,16 +84,7 @@
                             <div class="footer-title footer-content">
                                 <h3>keep pushing</h3>
                             </div>
-                            <p> En Yiro's Fitness Studio estaremos a tu lado apoyandote y trabajando hombro con hombro,para que alcances tus objetivos.</p>
-
-                            <div class="footer-social">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                                    <li><a href=""><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
+                            <p> En Yiro's Fitness Studio estaremos a tu lado apoyándote y trabajando hombro con hombro, para que alcances tus objetivos.</p>
                         </div>
                     </div>
                     <!-- /.col -->
@@ -191,7 +174,7 @@
     </footer>
 
 
-    <script src="{{asset('js/app.js')}}"></script>
+
     <!--All Js Here-->
     <!-- jquery latest version -->
     <script src="{{asset('js/vendor/jquery-3.2.1.min.js')}}"></script>
@@ -221,6 +204,7 @@
     <script src="{{asset('js/vendor/rev_slider/extensions/revolution.extension.parallax.min.js')}}"></script>
     <script src="{{asset('js/vendor/rev_slider/extensions/revolution.extension.slideanims.min.js')}}"></script>
     <script src="{{asset('js/vendor/rev_slider/extensions/revolution.extension.video.min.js')}}"></script>
+
     <script type="text/javascript">
         function setREVStartSize(e) {
             try {

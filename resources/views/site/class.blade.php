@@ -16,7 +16,7 @@
               <!-- /.colour-service-1-->
               <div class="col-md-12">
                   <ol class="breadcrumb">
-                      <li><a href="index.html">inicio</a></li>
+                      <li><a href="{{route('/')}}">inicio</a></li>
                       <li>।</li>
                       <li>clases</li>
                   </ol>
@@ -104,12 +104,12 @@
                       <div class="card">
                           <div class="card-header" role="tab" id="headingsix">
                               <h5 class="mb-0">
-                                  <a class="collapsed" data-toggle="collapse" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">Zumba Kids: Importancia del deporte para los niños</a>
+                                  <a class="collapsed" data-toggle="collapse" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">Ballet Kids: Importancia del deporte para los niños</a>
                               </h5>
                           </div>
                           <div id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingsix" data-parent="#accordion">
                               <div class="card-body">
-                                  <p>El deporte ayuda a los niños a desarrollarse tanto física como mentalmente. La actividad física debería formar parte de su día a día, ya que los beneficios son múltiples: les ayuda en el desarrollo psicomotor y a relacionarse, <span style="color:#fc328a;font-weight: bold;">les enseña a seguir unas reglas, a trabajar en equipo, a reconocer la importancia del esfuerzo personal y a ponerse metas.</span></p>
+                                  <p>El deporte ayuda a los niños a desarrollarse tanto física como mentalmente. La actividad física debería formar parte de su día a día, ya que los beneficios son múltiples: les ayuda en el desarrollo psicomotor y a relacionarse, <span style="color:#fc328a;font-weight: bold;">les enseña a seguir reglas, a trabajar en equipo, a reconocer la importancia del esfuerzo personal y a ponerse metas.</span></p>
                               </div>
                           </div>
                       </div>
@@ -125,7 +125,7 @@
                           <li><a>pilates</a></li>
                           <li><a>yoga</a></li>
                           <li><a>clases de bailes</a></li>
-                          <li><a>zumba kids</a></li>
+                          <li><a>ballet kids</a></li>
                       </ul>
                   </div>
               </div>

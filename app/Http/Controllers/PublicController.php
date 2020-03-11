@@ -40,4 +40,11 @@ class PublicController extends Controller
     {
       return view('site.store');
     }
+
+    public function account()
+    {
+      return view('admin/content/content');
+    }
+
+    
 }
