@@ -41,7 +41,6 @@
                   <th>Usuario</th>
                   <th>Email</th>
                   <th>Telefono</th>
-                  <th>Edad</th>
                   <th>Genero</th>
                   <th>Rol</th>
                   <th>Status</th>
