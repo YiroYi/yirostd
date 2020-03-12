@@ -14,7 +14,7 @@ class AddStatusRelationForeignToSalesTable extends Migration
     public function up()
     {
         Schema::table('sales', function (Blueprint $table) {
-            //
+            $table->foreign('status')->references('id')->on('statuses');
         });
     }
 
