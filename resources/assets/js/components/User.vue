@@ -55,7 +55,6 @@
                   <td v-text="user.access_user"></td>
                   <td v-text="user.email"></td>
                   <td v-text="user.phone"></td>
-                  <td v-text="user.age"></td>
                   <td>
                     <div v-if="user.sex">
                       <span class="label label-sm label-success">Masculino</span>
@@ -146,11 +145,6 @@
                                           </div>
                                       </div>
                                       <div class="form-group row">
-                                          <label class="col-md-2 form-control-label" for="text-input">Edad<span class="required"> * </span></label>
-                                          <div class="col-md-4">
-                                              <input type="text" v-model="age"  class="form-control" placeholder="Introduce la edad del usuario">
-
-                                          </div>
                                           <label class="col-md-2 form-control-label" for="text-input">Sexo<span class="required"> * </span></label>
                                           <div class="col-md-4">
                                             <select class="form-control" v-model="sex">
@@ -218,7 +212,6 @@
           access_user:'',
           last_name:'',
           phone:'',
-          age:'',
           status:0,
           sex:0,
           idrol:0,
@@ -318,7 +311,6 @@
               'access_user':this.access_user,
               'last_name':this.last_name,
               'phone':this.phone,
-              'age':this.age,
               'sex':this.sex,
               'idrol':this.idrol
 
@@ -343,7 +335,6 @@
               'access_user':this.access_user,
               'last_name':this.last_name,
               'phone':this.phone,
-              'age':this.age,
               'sex':this.sex,
               'idrol':this.idrol
           }).then(function (response) {
@@ -441,7 +432,6 @@
           if (!this.access_user) this.errorShowMsjUser.push ("Debe crear un usuario para esta cuenta no puede ir vacio");
           if (!this.last_name) this.errorShowMsjUser.push ("Ingrese el apellido");
           if (!this.phone) this.errorShowMsjUser.push ("Ingrese un numero telefonico");
-          if (!this.age) this.errorShowMsjUser.push ("Ingrese la edad del usuario");
           if (this.idrol==0) this.errorShowMsjUser.push("Seleccione un rol.");
           if (this.sex==2) this.errorShowMsjUser.push("Seleccione sexo del usuario.");
 
@@ -461,7 +451,6 @@
         this.access_user= '';
         this.last_name= '';
         this.phone= '';
-        this.age= '';
         this.status= '';
         this.sex= '';
         this.idrol= '';
@@ -485,7 +474,6 @@
                         this.access_user= '';
                         this.last_name= '';
                         this.phone= '';
-                        this.age= '';
                         this.sex= '';
                         this.idrol= '';
                         this.tipoAccion = 1;
@@ -504,7 +492,6 @@
                         this.access_user= data['access_user'];
                         this.last_name= data['last_name'];
                         this.phone= data['phone'];
-                        this.age= data['age'];
                         this.sex= data['sex'];
                         this.idrol= data['idrol'];
                         break;

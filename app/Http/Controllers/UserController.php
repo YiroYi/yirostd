@@ -16,13 +16,13 @@ class UserController extends Controller
 
       if ($buscar==''){
       $users = User::join('rols','users.idrol','=','rols.id')
-      ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.age','users.status','users.sex','users.idrol',
+      ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.status','users.sex','users.idrol',
                 'rols.name as rol_name')
       ->orderBy('users.id','desc')->paginate(5);
         }
         else{
             $users = User::join('rols','users.idrol','=','rols.id')
-            ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.age','users.status','users.sex','users.idrol',
+            ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.status','users.sex','users.idrol',
                       'rols.name as rol_name')
             ->where('users.'.$criterio, 'like', '%'. $buscar . '%')
             ->orderBy('users.id', 'desc')->paginate(5);
@@ -53,7 +53,6 @@ class UserController extends Controller
       $user->access_user = $request->access_user;
       $user->last_name = $request->last_name;
       $user->phone = $request->phone;
-      $user->age = $request->age;
       $user->sex = $request->sex;
       $user->idrol = $request->idrol;
       $user->status = '1';
@@ -73,7 +72,6 @@ class UserController extends Controller
     $user->access_user = $request->access_user;
     $user->last_name = $request->last_name;
     $user->phone = $request->phone;
-    $user->age = $request->age;
     $user->sex = $request->sex;
     $user->idrol = $request->idrol;
     $user->status = '1';
