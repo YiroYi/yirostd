@@ -32,7 +32,7 @@
                   </div>
               </div>
           </div>
-          <div class="table-responsive tblHeightSet small-slimscroll-style">
+          <div class="table-responsive ">
             <table class="table display product-overview mb-30" id="support_table">
               <thead>
                 <tr>

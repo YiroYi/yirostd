@@ -27,7 +27,7 @@ class SaleController extends Controller
           ->join('statuses','sales.status','=','statuses.id')
           ->select('sales.id','sales.status','sales.created_at','sales.total','sales.sale_date',
           'users.name')
-          ->orderBy('sales.id', 'desc')->paginate(5);
+          ->orderBy('sales.id', 'desc')->paginate(10);
       }
       elseif($criterio=='sale_date'){
 
@@ -35,7 +35,7 @@ class SaleController extends Controller
           ->select('sales.id','sales.status','sales.created_at','sales.total','sales.sale_date',
           'users.name')
           ->where('sales.sale_date', 'like', '%'. $buscar . '%')
-          ->orderBy('sales.sale_date', 'asc')->paginate(5);
+          ->orderBy('sales.sale_date', 'asc')->paginate(10);
       }
       elseif($criterio=='status'){
 
@@ -43,7 +43,7 @@ class SaleController extends Controller
           ->select('sales.id','sales.status','sales.created_at','sales.total','sales.sale_date',
           'users.name')
           ->where('sales.status', 'like', '%'. $buscar . '%')
-          ->orderBy('sales.status', 'asc')->paginate(5);
+          ->orderBy('sales.status', 'asc')->paginate(10);
         }
 
       return [

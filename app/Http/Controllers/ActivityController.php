@@ -14,10 +14,10 @@ class ActivityController extends Controller
       $criterio = $request->criterio;
 
       if ($buscar==''){
-      $activities = Activity::orderBy('id','desc')->paginate(5);
+      $activities = Activity::orderBy('id','desc')->paginate(10);
         }
         else{
-            $activities = Activity::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(3);
+            $activities = Activity::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(10);
         }
 
 

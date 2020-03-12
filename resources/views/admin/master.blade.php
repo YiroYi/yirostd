@@ -85,55 +85,55 @@
                         </div>
                       </div>
                     </div>
-        <!-- end header -->
-        <!-- start color quick setting -->
-        <div class="quick-setting-main">
-    			<button class="control-sidebar-btn btn" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></button>
-      			<div class="quick-setting display-none">
-      				<ul id="themecolors" >
-              				<li><p class="selector-title">Sidebar Color</p></li>
-              				<li class="complete">
-                        <div class="theme-color sidebar-theme">
-                  				<a href="#" data-theme="white"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="dark"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="blue"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="indigo"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="cyan"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="green"><span class="head"></span><span class="cont"></span></a>
-                  				<a href="#" data-theme="red"><span class="head"></span><span class="cont"></span></a>
-              				</div>
+          <!-- end header -->
+          <!-- start color quick setting -->
+          <div class="quick-setting-main">
+      			<button class="control-sidebar-btn btn" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></button>
+        			<div class="quick-setting display-none">
+        				<ul id="themecolors" >
+                				<li><p class="selector-title">Sidebar Color</p></li>
+                				<li class="complete">
+                          <div class="theme-color sidebar-theme">
+                      				<a href="#" data-theme="white"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="dark"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="blue"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="indigo"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="cyan"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="green"><span class="head"></span><span class="cont"></span></a>
+                      				<a href="#" data-theme="red"><span class="head"></span><span class="cont"></span></a>
+                				   </div>
+                      </li>
+                     	<li><p class="selector-title">Header Brand color</p></li>
+                     	<li class="theme-option">
+                        <div class="theme-color logo-theme">
+                     	    <a href="#" data-theme="logo-white"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-dark"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-blue"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-indigo"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-cyan"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-green"><span class="head"></span><span class="cont"></span></a>
+                  				<a href="#" data-theme="logo-red"><span class="head"></span><span class="cont"></span></a>
+                     	</div>
                     </li>
-                   	<li><p class="selector-title">Header Brand color</p></li>
-                   	<li class="theme-option">
-                      <div class="theme-color logo-theme">
-                   	    <a href="#" data-theme="logo-white"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-dark"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-blue"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-indigo"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-cyan"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-green"><span class="head"></span><span class="cont"></span></a>
-                				<a href="#" data-theme="logo-red"><span class="head"></span><span class="cont"></span></a>
-                   	</div>
-                  </li>
-                   	<li><p class="selector-title">Header color</p></li>
-                   	<li class="theme-option">
-                      <div class="theme-color header-theme">
-                       	<a href="#" data-theme="header-white"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-dark"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-blue"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-indigo"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-cyan"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-green"><span class="head"></span><span class="cont"></span></a>
-                       	<a href="#" data-theme="header-red"><span class="head"></span><span class="cont"></span></a>
-                   	</div>
-                  </li>
-      			       </ul>
-  			    </div>
-		    </div>
+                     	<li><p class="selector-title">Header color</p></li>
+                       	<li class="theme-option">
+                          <div class="theme-color header-theme">
+                           	<a href="#" data-theme="header-white"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-dark"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-blue"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-indigo"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-cyan"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-green"><span class="head"></span><span class="cont"></span></a>
+                           	<a href="#" data-theme="header-red"><span class="head"></span><span class="cont"></span></a>
+                       	</div>
+                      </li>
+        			       </ul>
+        			    </div>
+    		    </div>
     		    <!-- end color quick setting -->
             <!-- start page container -->
             <div class="page-container">
-     			<!-- start sidebar menu -->
+     			      <!-- start sidebar menu -->
 
                 @if(Auth::check())
                   @if(Auth::user()->idrol == 1)
@@ -146,13 +146,14 @@
                 <!-- end sidebar menu -->
 
     			         @yield('content')
+              
             </div>
           </div>
         </div>
         <!-- start footer -->
         <div class="page-footer">
-            <div class="page-footer-inner"> 2018 &copy; iFitness By
-            <a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">网艺龙软件公司</a>
+            <div class="page-footer-inner"> 2020 &copy; iFitness By
+            <a href="#" target="_top" class="makerCss">网艺龙软件公司</a>
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>

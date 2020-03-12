@@ -18,14 +18,14 @@ class UserController extends Controller
       $users = User::join('rols','users.idrol','=','rols.id')
       ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.status','users.sex','users.idrol',
                 'rols.name as rol_name')
-      ->orderBy('users.id','desc')->paginate(5);
+      ->orderBy('users.id','desc')->paginate(10);
         }
         else{
             $users = User::join('rols','users.idrol','=','rols.id')
             ->select('users.id','users.name','users.email','users.password','users.access_user','users.last_name','users.phone','users.status','users.sex','users.idrol',
                       'rols.name as rol_name')
             ->where('users.'.$criterio, 'like', '%'. $buscar . '%')
-            ->orderBy('users.id', 'desc')->paginate(5);
+            ->orderBy('users.id', 'desc')->paginate(10);
         }
       return [
         'pagination' => [

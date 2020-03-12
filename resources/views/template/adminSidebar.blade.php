@@ -1,5 +1,3 @@
-
-
 <div class="sidebar-container">
     <div class="sidemenu-container navbar-collapse collapse fixed-menu">
           <div id="remove-scroll">
@@ -76,4 +74,4 @@
               </ul>
           </div>
         </div>
-      </div>
+</div>

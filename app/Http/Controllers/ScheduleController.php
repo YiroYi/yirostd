@@ -14,10 +14,10 @@ class ScheduleController extends Controller
       $criterio = $request->criterio;
 
       if ($buscar==''){
-      $schedules = Schedule::orderBy('id','desc')->paginate(5);
+      $schedules = Schedule::orderBy('id','desc')->paginate(10);
         }
         else{
-            $schedules = Schedule::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(3);
+            $schedules = Schedule::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(10);
         }
       return [
         'pagination' => [

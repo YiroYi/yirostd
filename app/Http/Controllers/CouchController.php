@@ -18,14 +18,14 @@ class CouchController extends Controller
       $couches = Couch::join('activities','couches.idactivity','=','activities.id')
       ->select('couches.id','couches.name','couches.last_name','couches.phone','couches.email','couches.status','couches.idactivity','couches.comments',
                 'activities.name as activity_name')
-      ->orderBy('couches.id','desc')->paginate(5);
+      ->orderBy('couches.id','desc')->paginate(10);
         }
         else{
             $couches = Couch::join('activities','couches.idactivity','=','activities.id')
             ->select('couches.id','couches.name','couches.last_name','couches.phone','couches.email','couches.status','couches.idactivity','couches.comments',
                       'activities.name as activity_name')
             ->where('couches.'.$criterio, 'like', '%'. $buscar . '%')
-            ->orderBy('couches.id', 'desc')->paginate(5);
+            ->orderBy('couches.id', 'desc')->paginate(10);
         }
       return [
         'pagination' => [

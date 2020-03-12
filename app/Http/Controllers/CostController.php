@@ -14,10 +14,10 @@ class CostController extends Controller
       $criterio = $request->criterio;
 
       if ($buscar==''){
-      $costs = Cost::orderBy('id','desc')->paginate(5);
+      $costs = Cost::orderBy('id','desc')->paginate(10);
         }
         else{
-            $costs = Cost::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(3);
+            $costs = Cost::where($criterio, 'like', '%'. $buscar . '%')->orderBy('id', 'desc')->paginate(10);
         }
       return [
         'pagination' => [
