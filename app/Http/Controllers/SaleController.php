@@ -8,6 +8,7 @@ use Carbon\Carbon;
 use App\Sale;
 use App\Detailsale;
 use App\Activity;
+use Auth;
 
 
 
@@ -64,7 +65,7 @@ class SaleController extends Controller
       if (!$request->ajax()) return redirect('/');
 
       $day = new Sale();
-      $day->iduser = $request->iduser;
+      $day->iduser = Auth::user()->id;
       $day->status = 1;
       $day->total  = 0;
       $day->sale_date = Carbon::today()->toDateString();

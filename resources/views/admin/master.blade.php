@@ -33,7 +33,7 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/theme-color.css" rel="stylesheet" type="text/css" />
 	<!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="images/logo/yirosNB.png">
  </head>
  <!-- END HEAD -->
 <body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white dark-sidebar-color logo-dark">
