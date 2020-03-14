@@ -67,6 +67,9 @@ Route::group(['middleware' => ['auth']],function(){
     Route::put('scheduler/activate','ScheduleController@activate');
     Route::put('scheduler/desactivate','ScheduleController@desactivate');
     Route::get('scheduler/selectSchedule','ScheduleController@selectSchedule');
+    Route::get('scheduler/getTime','ScheduleController@getTime');
+
+
     /*Fin | Rutas horarios */
 
     /*Comienza | Rutas roles */

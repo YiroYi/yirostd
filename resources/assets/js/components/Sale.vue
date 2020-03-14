@@ -492,8 +492,10 @@
                 idcost: 0,
                 idschedule: 0,
                 time: 0,
+                timeAdd:'',
                 cost_expense:0 ,
                 arrayGetCost:[],
+                arrayGetTime:[],
                 costName:'',
                 dayTotal:'',
                 totalDb: 0.0,
@@ -678,7 +680,19 @@
 
                 let me=this;
                 var id = me.idcost
+                var idtime =me.time
+                me.getScheduleTime(idtime)
                 me.getCostId(id);
+            },
+            getScheduleTime(id){
+              let me=this;
+              var url= 'scheduler/getTime?id=' + id;
+              axios.get(url).then(function (response) {
+                  var respuesta= response.data;
+                  me.arrayGetTime = respuesta.scheduletime;
+                }).catch(function (error) {
+                    console.log(error);
+                });
             },
             getCostId(id){
               let me=this;
@@ -689,9 +703,10 @@
                   var respuesta= response.data;
                   me.arrayGetCost = respuesta.costdetails;
 
+
               }).then(function (response) {
                 self.costName=me.arrayGetCost[0]['name'];
-
+                self.timeAdd =me.arrayGetTime[0]['time'];
                   me.arrayDetail.push({
                   idactivity: me.idactivity,
                   idsale: me.idDay,
@@ -699,8 +714,8 @@
                   idcouch: me.idcouch,
                   couch_name: me.couch_name,
                   idcost: me.idcost,
-                  idschedule: me.idschedule,
-                  time: me.time,
+                  idschedule: me.time,
+                  time: self.timeAdd,
                   membership_fee: parseInt(me.price_membership)/10,
                   individual_fee: parseInt(me.price_individual),
                   total_efectivo: (((parseInt(me.price_membership)/10)*parseInt(me.qty_membership))+ (parseInt(me.price_individual)*parseInt(me.qty_individual)))-(parseInt(me.cost_expense)),

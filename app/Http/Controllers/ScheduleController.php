@@ -78,4 +78,13 @@ class ScheduleController extends Controller
 
       return ['schedules' => $schedules];
   }
+
+  public function getTime(Request $request){
+      if (!$request->ajax()) return redirect('/');
+
+      $id = $request->id;
+      $scheduletime = Schedule::where('id','=',$id)->select('id','time')->orderBy('id', 'asc')->get();
+
+      return ['scheduletime' => $scheduletime];
+  }
 }

@@ -93,7 +93,7 @@ class SaleController extends Controller
             $detail->idactivity = $det['idactivity'];
             $detail->idcouch = $det['idcouch'];
             $detail->idcost = $det['idcost'];
-            $detail->idschedule = $det['time'];
+            $detail->idschedule = $det['idschedule'];
             $detail->cost_expense = $det['cost_expense'];
             $detail->membership_fee = $det['membership_fee'];
             $detail->individual_fee = $det['individual_fee'];

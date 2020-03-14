@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="description" content="Responsive Admin Template" />
     <meta name="author" content="SmartUniversity" />
-    <title>Smile Admin | Bootstrap Responsive Admin Template</title>
+    <title>Yiro's Fitness Studio | Admin </title>
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
 	<!-- icons -->
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/pages/extra_pages.css">
     <link rel="stylesheet" href="assets/css/yiros-style.css">
 	<!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="images/logo/yirosNB.png">
 </head>
 <body>
   <div class="container">
